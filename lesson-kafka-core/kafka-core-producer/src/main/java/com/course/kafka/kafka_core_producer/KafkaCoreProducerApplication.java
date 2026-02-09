@@ -1,0 +1,18 @@
+package com.course.kafka.kafka_core_producer;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class KafkaCoreProducerApplication implements CommandLineRunner {
+
+    public static void main(String[] args) {
+        SpringApplication.run(KafkaCoreProducerApplication.class, args);
+    }
+
+    @Override
+    public void run(String... args) throws Exception {
+    }
+
+}
